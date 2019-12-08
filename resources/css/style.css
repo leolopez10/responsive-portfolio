@@ -1,184 +1,32 @@
-/****************************************** Body and Container dimentions ***************************/
-
-body {
-    background-color: grey;
-    background-image: url(../img/triangle-mosaic.png);
-    margin: 0 auto;
+* {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    font-size: 18px;
-    line-height: 1.5;
 }
-
-.container {
-    overflow: auto;
-    width: 960px;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 60px;
-    background-color: #ffffff;
-    border: solid 2px #cccccc;
-}
-
-
-/* ***************************************** Header ************************************* */
-header {
+/*********************************************** Navigation and Heading **********************************************/
+ nav{
+    position: relative;
     background: #ffffff;
-    width: 100%;
-    margin: 0 auto;
     border-bottom: solid 2px #cccccc;
 }
 
-nav {
-    position: relative;
-    background: #ffffff;
-    width: 960px;
-    height: 50px;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-h1 {
+h1 {    
     position: absolute;
-    margin: 0 auto;
-    top: 0;
     color: #ffffff;
-    background:#4aaaa5;
-    height: 30px;
-    padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-ul {
-    float: right;
-    list-style: none;
-    text-align: center;
-}
-
-li {
-    display: inline;
-    margin: 10px;
-}
-
-a {
-    text-decoration: none;
-    margin-left: -5px;
-    margin-right: -5px;
-}
-
-.spaceBorder {
-    border-right: solid 1px black;
-    border-left: solid 1px black;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-
-
-/************************************** About me sections ****************************************************/
-
-.aboutMe {
-    width: auto;
-    margin: 0 20px;
-    padding: 10px;
-}
-
-h2 {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-#profile-img {
-    float: left;
-    margin: 20px;
-}
-
-p {
-    margin: 10px;
-    padding: 20px;
-    line-height: 1.5;
-    
-}
-
-/*************************************************************Portfolio Section***************************************************/
-
-.portfolio {
-    width: auto;
-    margin: 0 20px;
-    padding: 10px;
-}
-
-.box-set {
-    display: flex;
-    height: 380px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-start;
-}
-
-.box {
-    position: relative;
-}
-
-.subtitle {
-    position: absolute;
-    bottom: 13px;
-    right: 0;
-    margin: 0 auto;
-    background: #4aaaa5;
-    color: #ffffff;
-    width: 110px;
-    text-align: center;
-}
-
-/*************************************************************Contact Section***************************************************/
-
-.contact {
-    width: auto;
-    margin: 0 20px;
-    padding: 10px;
-}
-
-input[type=text] {
-    width: 100%;
-    padding: 10px;
-}
-
-textarea[type=text] {
-    width: 100%;
-    height: 200px;
-    padding: 10px;
-}
-
-.btn {
-    height: 25px;
-    width: 75px;
-    color: #ffffff;
-    background: #4aaaa5;
-    border: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-/************************************************ footer ************************************************************************/
-footer {
-    background: #666666;
-    position: fixed;
+    background: #4aaaaf;
+    left: 5%;
     bottom: 0;
-    left: 0;
     margin: 0 auto;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    border-top: solid 8px #4aaaa5;
-}
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
 
-.copyright {
-    position: absolute;
-    bottom: 5px;
-    color: white;
-    font-size: x-small;
-    text-align: center;
+.sideBorder {
+    border-right: solid 1px #777777;
+    border-left: solid 1px #777777;
 }
+ 
+
+
+
