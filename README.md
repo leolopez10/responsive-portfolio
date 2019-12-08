@@ -1,4 +1,4 @@
-# responsive-portfolio.io
+# https://leolopez10.github.io/responsive-portfolio/
 Homework 2
 
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
