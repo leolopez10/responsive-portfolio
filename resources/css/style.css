@@ -15,7 +15,7 @@ section {
     margin-bottom: 10%;
 }
 /*********************************************** Navigation and Heading **********************************************/
- nav{
+nav{
     position: relative;
     background: #ffffff;
     border-bottom: solid 2px #cccccc;
@@ -124,3 +124,23 @@ img {
     font-size: x-small;
 }
 
+/************************************* Media Queries *****************************************/
+
+@media screen and (max-width: 992px) {
+    .navbar-nav{
+        flex-direction: row;
+    }
+
+    #link{ 
+        padding-right: 10px;
+        padding-left: 10px;    
+    }
+
+}
+
+@media screen and (max width: 700px){
+    h1{
+        width: 100%;
+    }
+
+}
