@@ -138,9 +138,32 @@ img {
 
 }
 
-@media screen and (max width: 700px){
-    h1{
-        width: 100%;
+@media screen and (max-width: 700px){
+    #navbar {
+        position: static;
+        margin: 0;
+        padding: 0;
     }
+    #profile-name,
+    .navbar-brand{
+        position: static;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+     
+
+    #navigation,
+    .navbar-nav,
+    .ml-auto{
+        position: static;
+        background: #ffffff;
+        margin: 0 auto !important; 
+        text-align: center;
+        padding: 2%;
+    }
+    
 
 }
